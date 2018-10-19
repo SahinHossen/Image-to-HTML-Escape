@@ -1,0 +1,454 @@
+/* Font Family Start */
+@font-face {
+	font-family: brandon-grotesque-light;
+	src: url(../fonts/brandon-grotesque-light.ttf);
+}
+@font-face {
+	font-family: brandon-grotesque-regular;
+	src: url(../fonts/brandon-grotesque-regular.ttf);
+}
+@font-face {
+	font-family: brandon-grotesque-medium;
+	src: url(../fonts/brandon-grotesque-medium.ttf);
+}
+@font-face {
+	font-family: brandon-grotesque-bold;
+	src: url(../fonts/brandon-grotesque-bold.ttf);
+}
+/* Font Family End */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #777777;
+	font-size: 18px;
+	font-family: brandon-grotesque-regular;
+	line-height: 1.5;
+}
+/* Header Start */
+
+header {
+	background-image: url(../images/Escape-banner.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.header-color {
+	background-color: rgba(0, 0, 0, .5);
+}
+.container {
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header {}
+.header-icon {
+	width: 15%;
+	float: left;
+	margin-top: 40px;
+}
+.header-icon i{
+	width: 25%;
+	float: left;
+	font-size: 30px;
+	color: #fff;
+	overflow: hidden;
+}
+.header-icon img {
+	width: 60%;
+	float: left;
+	margin-top: 6px;
+	margin-left: 5%;
+}
+.menu {
+	width: 70%;
+	float: right;
+	margin-top: 40px;
+}
+.menu ul {
+	list-style: none;
+	float: right;
+}
+.menu ul li {
+	float: left;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-family: brandon-grotesque-medium;
+	display: block;
+	padding: 5px 20px;
+	transition: .5s;
+}
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	color: skyblue;
+}
+.banner-content {
+	margin: 120px 0;
+	text-align: center;
+}
+.banner-content h3 {
+	font-size: 32px;
+	color: #C6C5CC;
+	font-family: brandon-grotesque-light;
+	padding: 30px 0;
+}
+.banner-content h1 {
+	color: #fff;
+	font-size: 66px;
+	font-family: brandon-grotesque-bold;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+button {
+	color: #fff;
+	font-size: 23px;
+	font-family: brandon-grotesque-bold;
+	background: transparent;
+	border: none;
+	border: 3px solid #fff;
+	border-radius: 5px;
+	padding: 15px 70px;
+	margin-top: 50px;
+	cursor: pointer;
+	transition: .5s;
+}
+button:hover {
+	border: 3px solid #FF9800;
+	border-radius: 5px;
+}
+/* Header End */
+
+/* Web Development Start */
+.development {
+	margin: 60px 0;
+	background-color: #fff;
+}
+.development-icon {
+	width: 25%;
+	float: right;
+}
+.development-icon img {
+	width: 100%;
+	margin-top: 40px;
+}
+.development-content {
+	width: 70%;
+	float: left;
+	margin-right: 5%;
+}
+.common-h1 {
+	color: #222222;
+	font-size: 60px;
+	font-family: brandon-grotesque-bold;
+}
+.common-sp {
+	font-size: 60px;
+	font-family: brandon-grotesque-light;
+}
+.common-p {
+	margin-top: 20px;
+}
+/* Web Development End */
+
+/* Identity Branding Start */
+.identity {
+	padding: 60px 0;
+	background-color: #f0f0f0;
+}
+.identity-icon {
+	width: 25%;
+	float: left;
+}
+.identity-icon img {
+	width: 100%;
+	margin-top: 40px;
+}
+.identity-content {
+	width: 70%;
+	float: right;
+	margin-left: 5%;
+}
+/* Identity Branding End */
+
+/* Services Area Start */
+.service {
+	margin: 80px 0;
+}
+.single-service {
+	width: 47%;
+	float: left;
+	margin-bottom: 40px;
+}
+.single-service:nth-child(even) {
+	margin-left: 6%;
+}
+.icon {
+	width: 15%;
+	float: left;
+}
+.icon i {
+	color: #fff;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 15px 17px;
+	border-radius: 50%;
+	font-size: 35px;
+	display: inline-block;
+}
+.content {
+	width: 80%;
+	float: left;
+	margin-left: 5%;
+}
+.content h1 {
+	color: #222222;
+	font-size: 22px;
+	font-family: brandon-grotesque-medium;
+}
+/* Services Area End */
+
+/* Clients Comments Start */
+.client-comments {
+	text-align: center;
+	background-color: #fafafa;
+	padding: 60px 0;
+}
+.common-p2 {
+	font-size: 22px;
+	margin-top: -15px;
+}
+.client {
+	margin: 30px 0;
+	overflow: hidden;
+}
+/* First Client Comments Start */
+.client1-logo {
+	width: 20%;
+	float: left;
+	background-color: #000000;
+	border: 1px solid #000000;
+	border-radius: 50%;
+	padding: 100px 15px;
+	display: block;
+}
+.client1-content {
+	width: 55%;
+	float: left;
+	background-color: #FFFFFF;
+	text-align: left;
+	padding: 20px 50px;
+	margin-left: 8%;
+	margin-top: 5px;
+}
+.client1-content p:first-child {
+	font-size: 26px;
+	padding-bottom: 0;
+}
+.client1-content p:last-child {
+	font-size: 20px;
+	color: #7690C5;
+}
+/* First Client Comments End*/
+/* Second Client Comments Start */
+.client2-logo {
+	width: 20%;
+	float: right;
+	background-color: #000000;
+	border: 1px solid #000000;
+	border-radius: 50%;
+	padding: 100px 15px;
+	display: block;
+}
+.client2-content {
+	width: 55%;
+	float: left;
+	background-color: #FFFFFF;
+	text-align: left;
+	padding: 20px 50px;
+	margin-right: 8%;
+	margin-top: 5px;
+}
+.client2-content p:first-child {
+	font-size: 26px;
+	padding-bottom: 0;
+}
+.client2-content p:last-child {
+	font-size: 20px;
+	color: #7690C5;
+}
+/* Second Client Comments End */
+/* Clients Comments End */
+
+/* Midea Start */
+.midea {
+	background-color: #fff;
+	margin: 50px 0;
+}
+.container2 {
+	width: 60%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.midea-icon {
+	width: calc(90%/4);
+	float: left;
+	padding: 5px 10px;
+}
+.midea-icon:nth-child(1) {
+	margin-top: 5px;
+}
+.midea-icon:nth-child(3) {
+	margin-top: -15px;
+}
+.midea-icon img {
+	width: 100%;
+	display: block;
+}
+/* Midea End */
+
+/* Amazing Team Start */
+.team {
+	background: rgba(0, 0, 0, .8);
+	padding: 50px 0;
+	text-align: center;
+}
+.team-title {
+	text-align: center;
+	margin: 30px 0;
+}
+.common2-h1 {
+	color: #fff;
+	font-size: 60px;
+	font-family: brandon-grotesque-bold;
+}
+.common-sp2 {
+	font-size: 60px;
+	font-family: brandon-grotesque-light;
+}
+.team-member {
+	width: calc(100%/3);
+	float: left;
+	margin: 30px 0;
+}
+.member-icon {
+	background-color: #000000;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	padding: 100px 15px;
+	display: block;
+	margin: 20px 10px;
+}
+.member-name p:first-child {
+	color: #fff;
+	font-size: 22px;
+	font-family: brandon-grotesque-bold;
+}
+.member-name p:last-child {
+	color: #fff;
+	font-family: brandon-grotesque-medium;
+}
+.member-media-icon {
+	margin: 15px 0;
+}
+.member-media-icon a {
+	text-decoration: none;
+	margin: 5px 10px;
+}
+.member-media-icon a i {
+	color: #fff;
+	font-size: 22px;
+	text-align: center;
+	padding: 10px 15px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	transition: .5s;
+}
+.team-footer p {
+	color: #ebebeb;
+	font-size: 20px;
+	width: 80%;
+	margin: 0 auto;
+}
+/* Amazing Team End */
+
+/* Contact Section Start */
+.contact-info {
+	color: #ebebeb;
+	background-color: #7690C5;
+	padding: 60px 0;
+}
+.contact-media {
+	width: 47%;
+	float: left;
+}
+.single-media {
+	width: 47%;
+	float: left;
+	margin-top: 30px;
+}
+.single-media:nth-child(odd) {
+	margin-left: 6%;
+}
+.media-icon {
+	width: 15%;
+	float: left;
+}
+.media-icon i {
+	font-size: 22px;
+	background: transparent;
+	color: #fff;
+}
+.media-content {
+	width: 80%;
+	float: left;
+	margin-left: 5%;
+}
+.media-content p {
+	padding: 0;
+
+}
+.contact-email {
+	width: 47%;
+	float: left;
+	margin-left: 6%;
+}
+input {
+	border: none;
+	border: 2px solid white;
+	border-radius: 2px;
+	width: 100%;
+	padding: 10px 5px;
+	display: block;
+	outline: none;
+	margin:10px 0 30px 0;
+}
+textarea {
+	border: none;
+	border: 2px solid #fff;
+	outline: none;
+	padding: 10px 5px;
+}
+/* Contact Section End */
+
+/* Footer Start */
+footer {
+	background-color: #7690C5;
+	padding: 40px 0;
+	text-align: center;
+}
+.hr {
+	color: #fff
+}
+footer p {
+	color: #fff;
+	font-family: brandon-grotesque-medium;
+	font-size: 16px;
+	padding-top: 20px;
+}
+/* Footer End */
