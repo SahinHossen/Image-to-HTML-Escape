@@ -22,10 +22,10 @@
 					<nav class="menu">
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">Clients</a></li>
-							<li><a href="#">Team</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="#service">Services</a></li>
+							<li><a href="#client">Clients</a></li>
+							<li><a href="#team">Team</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -70,10 +70,10 @@
 	<!-- Identity Branding End -->
 
 	<!-- Services Area Start -->
-	<section class="service">
+	<section class="service" id="service">
 		<div class="container">
 			<!-- Single Service Start -->
-			<div class="single-service">
+			<div class="single-service" >
 				<div class="icon">
 					<i class="fas fa-male"></i>
 				</div>
@@ -151,7 +151,7 @@
 	<section class="client-comments">
 		<div class="container">
 			<div class="client-comments-title">
-				<h1 class="common-h1"><span class="common-sp">Awesome</span> Clients</h1>
+				<h1 class="common-h1" id="client"><span class="common-sp">Awesome</span> Clients</h1>
 				<p class="common-p2">See what nice things our clients said about us.</p>
 			</div>
 			<!-- Single Client Comments Start -->
@@ -159,7 +159,7 @@
 				<div class="client1-logo">
 					
 				</div>
-				<div class="client1-content">
+				<div class="client-content">
 					<p>“Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus.”</p>
 					<p>- Jamie Richardson, Founder of Cocoa Media</p>
 				</div>
@@ -171,7 +171,7 @@
 				<div class="client2-logo">
 					
 				</div>
-				<div class="client2-content">
+				<div class="client-content">
 					<p>“Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus.”</p>
 					<p>- Bart Thompson, Founder of Rainel</p>
 				</div>
@@ -203,7 +203,7 @@
 		<section class="team">
 			<div class="container2">
 				<div class="team-title">
-					<h1 class="common2-h1"><span class="common-sp2">Amazing</span> Team</h1>
+					<h1 class="common2-h1" id="team"><span class="common-sp2">Amazing</span> Team</h1>
 					<p class="common-p2">These wonderful people make work enjoyable.</p>
 					<!-- Single Team Member Start -->
 					<div class="team-member">
@@ -251,6 +251,7 @@
 						<div class="member-media-icon">
 							<a href="#"><i class="fab fa-facebook-f"></i></a>
 							<a href="#"><i class="fab fa-pinterest-p"></i></a>
+							<a href="#"><i class="fab fa-linkedin-in"></i></a>						
 						</div>
 					</div>
 					<!-- Single Team Member End -->
@@ -267,7 +268,7 @@
 			<div class="container">
 				<div class="contact-media">
 					<div class="contact-media-title">
-						<h1 class="common2-h1"><span class="common-sp2">Say</span> Hello</h1>
+						<h1 id="contact" class="common2-h1"><span class="common-sp2">Say</span> Hello</h1>
 						<p>Don’t be shy, drop us an email and say hello! We are a really nice bunch of people</p>
 					</div>
 					<div class="single-media">
@@ -324,6 +325,7 @@
 						<input type="text" name="your_name" placeholder="Your Name*">
 						<input type="email" name="E-mail" placeholder="Your E-mail*">
 						<textarea name="message" cols="59" rows="10" placeholder="Your Message *"></textarea>
+						<button type="submit">Submit</button>
 					</form>
 				</div>
 			</div>
